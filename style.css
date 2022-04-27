@@ -1,0 +1,49 @@
+body
+{
+    margin:0px;
+    font-family:Verdana, Helvetica;
+}
+h1
+{
+  text-align: center;
+}
+.active
+{
+  background-color: white;
+  font-size:2.5vmin;
+  padding:10px;
+}
+.zadania
+{
+  margin-bottom:60px;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap:30px;
+}
+a
+{
+  position: relative;
+  left:30px;
+  display:block;
+  font-size:2vmin;
+  padding:5px;
+  margin:5px;
+  background-color: #cfcfcf;
+  width: calc(100% - 100px);
+
+}
+.inactive
+{
+  display:none;
+}
+footer
+{
+  color:white;
+  position:fixed;
+  bottom:0;
+  left:0;
+  height:50px;
+  width:100vw;
+  background-color: black;
+  text-align:center;
+}

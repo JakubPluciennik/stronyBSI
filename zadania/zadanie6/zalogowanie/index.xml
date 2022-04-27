@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xslt"?>
+<obiekt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sprzedawca>
+    <osoba>
+      <imie>Jan</imie>
+    <nazwisko>Kowalski</nazwisko>
+  </osoba>
+  </sprzedawca>
+
+    <nabywca>
+      <osoba>
+        <imie>Paweł</imie>
+      <nazwisko>Niździłkowski</nazwisko>
+    </osoba>
+    </nabywca>
+
+    <miejscowosc>Warszawa</miejscowosc>
+    <dataWystawienia>20.03.2021</dataWystawienia>
+    <nrRachunkuBanku>11 2222 2222 3333 3333 3333 3333</nrRachunkuBanku>
+
+    <obiektyFaktury>
+      <pozycja>
+        <nr>1</nr>
+        <nazwaTowaru>Towar1</nazwaTowaru>
+        <jednostkaMiary>szt</jednostkaMiary>
+        <iloscTowaru>10</iloscTowaru>
+        <cenaJednostkowa>
+          <zloty>85</zloty>
+          <grosze>31</grosze>
+        </cenaJednostkowa>
+        <wartoscTowarow>
+          <zloty>853</zloty>
+          <grosze>10</grosze>
+        </wartoscTowarow>
+      </pozycja>
+
+      <pozycja>
+        <nr>2</nr>
+        <nazwaTowaru>Towar2</nazwaTowaru>
+        <jednostkaMiary>szt</jednostkaMiary>
+        <iloscTowaru>5</iloscTowaru>
+        <cenaJednostkowa>
+          <zloty>412</zloty>
+          <grosze>65</grosze>
+        </cenaJednostkowa>
+        <wartoscTowarow>
+          <zloty>2063</zloty>
+          <grosze>22</grosze>
+        </wartoscTowarow>
+      </pozycja>
+
+      <pozycja>
+        <nr>3</nr>
+        <nazwaTowaru>Towar3</nazwaTowaru>
+        <jednostkaMiary>szt</jednostkaMiary>
+        <iloscTowaru>2</iloscTowaru>
+        <cenaJednostkowa>
+          <zloty>2001</zloty>
+          <grosze>01</grosze>
+        </cenaJednostkowa>
+        <wartoscTowarow>
+          <zloty>4002</zloty>
+          <grosze>02</grosze>
+        </wartoscTowarow>
+      </pozycja>
+
+      <pozycja>
+        <nr>4</nr>
+        <nazwaTowaru>Towar4</nazwaTowaru>
+        <jednostkaMiary>szt</jednostkaMiary>
+        <iloscTowaru>7</iloscTowaru>
+        <cenaJednostkowa>
+          <zloty>999</zloty>
+          <grosze>99</grosze>
+        </cenaJednostkowa>
+        <wartoscTowarow>
+          <zloty>6999</zloty>
+          <grosze>93</grosze>
+        </wartoscTowarow>
+      </pozycja>
+
+      <pozycja>
+        <nr>5</nr>
+        <nazwaTowaru>Towar5</nazwaTowaru>
+        <jednostkaMiary>szt</jednostkaMiary>
+        <iloscTowaru>9</iloscTowaru>
+        <cenaJednostkowa>
+          <zloty>31</zloty>
+          <grosze>38</grosze>
+        </cenaJednostkowa>
+        <wartoscTowarow>
+          <zloty>282</zloty>
+          <grosze>42</grosze>
+        </wartoscTowarow>
+      </pozycja>
+    </obiektyFaktury>
+    <naleznosc></naleznosc>
+</obiekt>

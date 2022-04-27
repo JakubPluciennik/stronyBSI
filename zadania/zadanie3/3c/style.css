@@ -1,0 +1,25 @@
+.pole
+{
+  padding:5px;
+  width:50%;
+  text-align:right;
+}
+.plec
+{
+width:100%;
+}
+main
+{
+  width: 40vw;
+  min-width: 660px;
+}
+textarea
+{
+  width:50%;
+  height:150px;
+}
+button
+{
+  width:calc(50% / 3);
+  height:30px;
+}

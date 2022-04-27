@@ -1,0 +1,54 @@
+body
+{
+background-color: #4f4f4f;
+}
+main
+{
+  font-family: Verdana, Helvetica, Arial;
+  border:1px solid black;
+  width:90vw;
+  min-width: 350px;
+  max-width: 1200px;
+  background-color: #fefefe;
+  margin:auto;
+}
+form div
+{
+  margin:10px;
+}
+input, select
+{
+  display:block;
+  font-size: 1.75vmin;
+  margin:5px
+}
+.plec
+{
+  margin:5px;
+}
+.plec input, #prawojazdy
+{
+  display: inline;
+}
+textarea
+{
+  width:340px;
+  height:200px;
+}
+span
+{
+  display:inline;
+}
+form button
+{
+  border:1px solid black;
+  margin:5px;
+  padding:0px;
+  height:50px;
+  width:calc((100% / 3) - 14px);
+}
+#forminfo
+{
+  font-size: 2vmax;
+
+}

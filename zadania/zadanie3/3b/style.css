@@ -1,0 +1,35 @@
+body, main
+{
+  margin:0;
+  padding:0;
+}
+
+#r1, #r2, #r3
+{
+clear: both;
+height:calc(100% / 3);
+}
+.obrazy
+{
+  clear: both;
+}
+.opisy
+{
+  clear: both;
+}
+.obraz img
+{
+  width: 100%;
+}
+.opis
+{
+  width: calc(100% / 5 - 20px);
+  padding:10px;
+  float:left;
+}
+.obraz
+{
+  width: calc(100% / 5 - 20px);
+  padding:10px;
+  float:left;
+}

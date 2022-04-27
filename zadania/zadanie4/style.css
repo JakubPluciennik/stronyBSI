@@ -1,0 +1,78 @@
+body
+{
+  background-color: #0f0f0f;
+  font-family: helvetica, verdana, Arial;
+}
+
+main
+{
+  margin: auto;
+  width:calc(70vw - 20px);
+  min-width: 400px;
+  height: calc(90vh - 20px);
+  min-height:200px;
+  max-height: 1000px;
+  background-color: #c4c4c4;
+  padding:10px;
+  border-radius: 10px;
+}
+
+#rownanie
+{
+  margin:6px;
+  text-align: right;
+  width:calc(100% - 20px - 2%);
+  height:calc(20% - 20px);
+  padding:4px;
+  padding-right:2%;
+  border:0px;
+  border-radius:10px;
+  font-size: 7vh;
+}
+
+#klawiatura
+{
+  padding:10px;
+  height:calc(80% - 20px);
+  width:calc(80% - 20px);
+  float:left;
+}
+
+#klawiatura button
+{
+  float:left;
+  margin:4px;
+  width:calc((100% / 3) - 8px);
+  height:calc((100% / 4) - 8px);
+  border-radius: 10px;
+  border:0px;
+  font-size:7vh;
+}
+
+#rwn
+{
+  background-color:#81f0d0;
+}
+
+#operacje
+{
+  padding:10px;
+  height:calc(80% - 20px);
+  width:calc(20% - 20px);
+  float:left;
+}
+
+#operacje button
+{
+  float:left;
+  margin:4px;
+  width:calc(100% - 8px);
+  height:calc((100% / 5) - 8px);
+  border-radius: 10px;
+  border:0px;
+  font-size:7vh;
+}
+#clear
+{
+background-color: #f59090;
+}
